@@ -83,7 +83,7 @@ public class Homework1 {
 
 
 //        long max = 3123456789l;
-//        double d = 1000_00;
+//        double d = 1000.00;
 //        char i = 'i';
 //        char j=  'j';
 //        char ij = i +j; // we can't do addition in char
@@ -92,6 +92,11 @@ public class Homework1 {
 //        h = h + 8;
 //        int m,n = 11;
 //        m = n;//?
+            float x = 12.345f;
+            float z = 8923.1234857f;
+            float v = 3456.091f;
+
+            double y = 34.567839023;
 
         }
     }
