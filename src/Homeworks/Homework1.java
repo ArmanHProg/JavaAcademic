@@ -49,6 +49,9 @@ public class Homework1 {
             boolean p =true;
             boolean q =false;
 
+            int year = 201;
+            System.out.print (year);
+
             System.out.println(s+" "+w+" "+t);
             System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+g+" "+h+" "+n+" "+o+" "+i+" "
                     +j+" "+k+" "+l+" "+p+" "+q+" "+max+" "+min+" "+minShort+" "+maxShort+" "+maxInt+" "+minInt+" "
