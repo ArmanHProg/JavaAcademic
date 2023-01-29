@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="update .gitignore" />
+    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework1">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -69,7 +73,8 @@
       <workItem from="1674823603922" duration="2786000" />
       <workItem from="1674827669952" duration="236000" />
       <workItem from="1674827919455" duration="336000" />
-      <workItem from="1674839208922" duration="192000" />
+      <workItem from="1674839208922" duration="1660000" />
+      <workItem from="1674994912330" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1674825914227</created>
@@ -127,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674839388781</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework1">
+      <created>1674839644591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674839644591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,8 +172,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Homework1" />
     <MESSAGE value="update .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
+    <MESSAGE value="Homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework1" />
   </component>
 </project>
