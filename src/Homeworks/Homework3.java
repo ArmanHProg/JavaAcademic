@@ -106,7 +106,14 @@ public class Homework3 {
         System.out.println(g);
 
 
-        //todo xndir;
+        // 1-100 sum
+
+        int ss = 1;
+        int pp =100;
+
+        double dd = (double) (ss+pp)/2*100;
+        System.out.println(dd);
+
 
 
 

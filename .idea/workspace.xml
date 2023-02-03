@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework2">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework3a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework3 and Homework3a">
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/Homework3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework3a">
+  <component name="RunManager" selected="Application.Homework3">
     <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.Homework3" />
       <module name="JavaAcademic" />
@@ -93,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework3a" />
         <item itemvalue="Application.Homework3" />
+        <item itemvalue="Application.Homework3a" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +112,7 @@
       <workItem from="1675171013141" duration="10000" />
       <workItem from="1675353047771" duration="11084000" />
       <workItem from="1675416955283" duration="1176000" />
-      <workItem from="1675421015420" duration="1306000" />
+      <workItem from="1675421015420" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1674825914227</created>
@@ -187,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674995649096</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Homework3 and Homework3a">
+      <created>1675422454501</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675422454501</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +227,7 @@
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework2" />
+    <MESSAGE value="Homework3 and Homework3a" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework3 and Homework3a" />
   </component>
 </project>
