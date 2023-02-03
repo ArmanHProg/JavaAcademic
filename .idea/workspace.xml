@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework1">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework2.java" afterDir="false" />
+    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework2">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Homework3a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +64,40 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Homework3a">
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework3" />
+      <module name="JavaAcademic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework3a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework3a" />
+      <module name="JavaAcademic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Homework3a" />
+        <item itemvalue="Application.Homework3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +110,12 @@
       <workItem from="1674827669952" duration="236000" />
       <workItem from="1674827919455" duration="336000" />
       <workItem from="1674839208922" duration="1660000" />
-      <workItem from="1674994912330" duration="710000" />
+      <workItem from="1674994912330" duration="999000" />
+      <workItem from="1675000407267" duration="1882000" />
+      <workItem from="1675171013141" duration="10000" />
+      <workItem from="1675353047771" duration="11084000" />
+      <workItem from="1675416955283" duration="1176000" />
+      <workItem from="1675421015420" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1674825914227</created>
@@ -139,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674839644591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework2">
+      <created>1674995649096</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674995649096</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +222,7 @@
     </ignored-roots>
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="Homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework1" />
+    <MESSAGE value="Homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2" />
   </component>
 </project>
