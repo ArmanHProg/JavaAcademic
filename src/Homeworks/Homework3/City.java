@@ -1,4 +1,4 @@
-package Homeworks.Homework3b;
+package Homeworks.Homework3;
 
 public class City {
 
