@@ -271,65 +271,59 @@ public class Homework4a {
             System.out.println();
         }
 
-        //todo
-//        for (int i = 1 ; i < 6; i++){
-//            for (int j = 0; j <   (9 - (2 * i - 1)) / 2 ; j++){
-//                System.out.print(" ");
-//            }
-//            for (int l = 1; l < i + i ; l++ ){
-//                System.out.print(i);
-//            }
-//            System.out.println();
-//        }
 
-
-
-
-    }
-
-    void func13() {
-
-        Scanner scanner = new Scanner(System.in);
-        double x = scanner.nextDouble();
-        int n = scanner.nextInt();
-        Double f = Math.sin(x);
-
-        f+=x;
-        for (int i = 3; i <= n; i +=4) {
-            f -= Math.pow(x,n)/ factorial(n);
-            f += Math.pow(x,n+2)/factorial(n+2);
+        for (int i = 1 ; i < 6; i++){
+            for (int j = 0; j <   (9 - (2 * i - 1)) / 2 ; j++){
+                System.out.print(" ");
+            }
+            for (int l = 1; l < i + i ; l++ ){
+                System.out.print(i);
+            }
+            System.out.println();
         }
 
 
-        System.out.println(f);
+
 
     }
 
-    int factorial(int factorial) {
-        for (int i = 1; i <= factorial ; ++i) {
-            factorial *= i;
+    public double sin(double number, int n){
+        double radian = number * Math.PI/180;
+    double sin =0;
+    for (int i = 0; i<=n ; i++){
+        sin += Math.pow(-1,i) * Math.pow(radian ,(i*2+1))/factorialOf(i*2+1);
+    }
+    return sin;
+    }
+
+    public long factorialOf(int number) {
+        int result = 1;
+        if (number < 0 && number % 2 != 0) {
+            for (int i = 2; i <= -number; i++) {
+                result *= i;
+            }
+            return -result;
         }
-        return factorial;
-    }
-
-        void func14() {
-
-        Scanner scanner = new Scanner(System.in);
-        double x = scanner.nextDouble();
-        int n = scanner.nextInt();
-        Double f = Math.cos(x);
-            f+=1;
-
-        for (int i = 2; i <= n; i +=4) {
-            f -= Math.pow(x,n)/ factorial(n);
-            f += Math.pow(x,n+2)/factorial(n+2);
+        if (number < 0) {
+            for (int i = 2; i <= -number; i++) {
+                result *= i;
+            }
+            return -result;
         }
-
-
-        System.out.println(f);
-
+        for (int i = 2; i <= number; i++) {
+            result *= i;
+        }
+        return result;
     }
 
+    public double cos(double number, int n){
+        double radian = number * Math.PI/180;
+        double sin =0;
+        for (int i = 0; i<=n ; i++){
+            sin += Math.pow(-1,i) * Math.pow(radian ,(i*2))/factorialOf(i*2);
+        }
+        return sin;
+    }
 
 
     public static void main(String[] args) {
@@ -346,7 +340,7 @@ public class Homework4a {
         obj.func10();
         obj.random();
         obj.func12();
-        obj.func13();
-        obj.func14();
+        System.out.println(obj.sin(1, 10));
+        System.out.println(obj.cos(1,10));
     }
 }
