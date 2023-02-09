@@ -1,5 +1,6 @@
 package Homeworks.Homework3;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Homework3a {
@@ -113,25 +114,15 @@ public class Homework3a {
         }
         System.out.println(sum);
     }
-
+    //todo
     void func1_N1() {
 
-        long N;
-        do {
-            Scanner scanner = new Scanner(System.in);
-            N = scanner.nextInt();
-
-        } while (N > 33);
-
-        int multi = 1;
-        for (int i = 10; i <= N; i++) {
-            if (i % 2 == 0) {
-                multi *= i;
-            }
+            BigInteger x = new BigInteger("1");
+            for (int i = 10; i < 99; i += 2)
+                x = x.multiply(BigInteger.valueOf(i));
+            System.out.println(x);
 
         }
-        System.out.println(multi);
-    }
 
     void func1_N2(){
         int N;

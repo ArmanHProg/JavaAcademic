@@ -273,11 +273,16 @@ public class Homework4a {
 
 
         for (int i = 1 ; i < 6; i++){
-            for (int j = 0; j <   (9 - (2 * i - 1)) / 2 ; j++){
+            for (int j = 0; j < (9 - (2 * i - 1)) / 2 ; j++){
                 System.out.print(" ");
             }
-            for (int l = 1; l < i + i ; l++ ){
-                System.out.print(i);
+            int x = i;
+            for (int l = 1; l < i ; l++ ){
+                System.out.print(x--);
+            }
+            System.out.print(x);
+            for (int l = 1; l < i ; l++ ){
+                System.out.print(++x);
             }
             System.out.println();
         }
