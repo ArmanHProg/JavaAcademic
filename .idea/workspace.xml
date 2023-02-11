@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="Homework4 checked cos and sin">
+    <list default="true" id="0bbfa274-9e3e-42bf-9846-80d6c9e56a88" name="Changes" comment="checked all">
+      <change afterPath="$PROJECT_DIR$/src/homeworks/homework5/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Homework3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/Homework3/Homework3a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework4/Homework4a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/Homework4/Homework4a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework1/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework1/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework2/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework2/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/ForUniversities/Universities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/forUniversities/Universities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Forstudent/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/forstudent/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Homework3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Homework3a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Homework3a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework3/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework3/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework4/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework4/Homework4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/Homework4/Homework4a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/homework4/Homework4a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +64,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arman/IdeaProjects/JavaAcademic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/arman/IdeaProjects/JavaAcademic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Homework4a">
+}]]></component>
+  <component name="RunManager" selected="Application.ArrayUtil">
+    <configuration name="ArrayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.homework5.ArrayUtil" />
+      <module name="JavaAcademic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks.homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.Eggs" />
       <module name="JavaAcademic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.Homework1.*" />
+          <option name="PATTERN" value="homeworks.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework3.Employee" />
+      <option name="MAIN_CLASS_NAME" value="homeworks.homework3.Employee" />
       <module name="JavaAcademic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.Homework1.*" />
+          <option name="PATTERN" value="homeworks.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework4.Homework4" />
+      <option name="MAIN_CLASS_NAME" value="homeworks.homework4.Homework4" />
       <module name="JavaAcademic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.Homework1.*" />
+          <option name="PATTERN" value="homeworks.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,24 +134,11 @@
       </method>
     </configuration>
     <configuration name="Homework4a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework4.Homework4a" />
+      <option name="MAIN_CLASS_NAME" value="homeworks.homework4.Homework4a" />
       <module name="JavaAcademic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homeworks.Homework1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.Homework3.Rectangle" />
-      <module name="JavaAcademic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.Homework1.*" />
+          <option name="PATTERN" value="homeworks.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayUtil" />
         <item itemvalue="Application.Homework4a" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.Eggs" />
         <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +181,11 @@
       <workItem from="1675788617288" duration="38000" />
       <workItem from="1675874742738" duration="2811000" />
       <workItem from="1675959789994" duration="59000" />
-      <workItem from="1675968164402" duration="1538000" />
+      <workItem from="1675968164402" duration="1594000" />
+      <workItem from="1676044672148" duration="6478000" />
+      <workItem from="1676126128989" duration="4219000" />
+      <workItem from="1676131095208" duration="300000" />
+      <workItem from="1676137512769" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1674825914227</created>
@@ -278,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675876840175</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="checked all">
+      <created>1675969752262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675969752262</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +346,7 @@
     <MESSAGE value="Homework3b" />
     <MESSAGE value="Homework4" />
     <MESSAGE value="Homework4 checked cos and sin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework4 checked cos and sin" />
+    <MESSAGE value="checked all" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked all" />
   </component>
 </project>

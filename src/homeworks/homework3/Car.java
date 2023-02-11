@@ -1,4 +1,4 @@
-package Homeworks.Homework3;
+package homeworks.homework3;
 
 public class Car {
 

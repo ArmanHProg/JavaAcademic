@@ -1,4 +1,4 @@
-package Homeworks.Homework3;
+package homeworks.homework3;
 
 import java.math.BigInteger;
 import java.util.Scanner;
@@ -114,7 +114,7 @@ public class Homework3a {
         }
         System.out.println(sum);
     }
-    //todo
+
     void func1_N1() {
 
             BigInteger x = new BigInteger("1");

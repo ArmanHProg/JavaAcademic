@@ -1,9 +1,7 @@
-package Homeworks.Homework4;
+package homeworks.homework4;
 
 import java.util.Random;
 import java.util.Scanner;
-
-import static java.lang.Math.sin;
 
 public class Homework4a {
 
@@ -43,10 +41,19 @@ public class Homework4a {
      void reverse(){
          Scanner scanner = new Scanner(System.in);
          int input = scanner.nextInt();
+         int reversed = 0;
 
-         String str = Integer.toString(input);
-         StringBuffer reverse = new StringBuffer(str).reverse();
-         System.out.println(reverse);
+         while(input != 0) {
+
+             int digit = input % 10;
+             reversed = reversed * 10 + digit;
+
+             input /= 10;
+         }
+
+         System.out.println("Reversed Number: " + reversed);
+
+
      }
 
     void isPrime() {
