@@ -165,8 +165,12 @@ public class ArrayUtil {
     }
 
     //13
-    void binaryArrays() {
-
+    void binaryArrays(int[] a) {
+        int sum = 0;
+        for (int i = a.length - 1, j = 0; i >= 0; i--, j++) {
+            sum += a[i] * (int) Math.pow(2, j);
+        }
+        System.out.println(sum);
     }
 
     //14
