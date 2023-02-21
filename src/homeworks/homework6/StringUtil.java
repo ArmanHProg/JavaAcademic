@@ -67,13 +67,12 @@ public class StringUtil {
     /**
      * toUpperCase()
      */
-    void toUpperCase() {
-        String str = "Hello";
-        StringBuilder sc = new StringBuilder("Hello");
-        String str1 = String.valueOf(sc);
-        System.out.println(str.toUpperCase());
-        System.out.println(str1.toUpperCase());
-    }
+//    void toUpperCase(String str) {
+//        StringBuilder sc = new StringBuilder(str);
+//        String str1 = String.valueOf(sc);
+//        System.out.println(str.toUpperCase());
+//        System.out.println(str1.toUpperCase());
+//    }
 
     /**
      * line with 20 symbols
@@ -177,13 +176,13 @@ public class StringUtil {
     }
 
     //todo
-    void emptyOrNull(){
-        String s = null;
-        if (s.length()==0)
-            System.out.println("yes");
-        else System.out.println("no");
+//    void emptyOrNull(){
+//        String s = null;
+//        if (s.equals(""))
+//            System.out.println("Norm");
+//        else System.out.println("empty or null");
 
-    }
+//    }
     void split2() {
         String txt = "We, are, living, in an, yellow, submarine, We don't,  have anything";
 
@@ -207,7 +206,7 @@ public class StringUtil {
 //        obj.literals("hello world");
 //        obj.reverse();
 //        System.out.println(obj.countSubString("We are living in a yellow submarine. We don't  have anything", "in"));
-//        obj.toUpperCase();
+//        obj.toUpperCase("hello");
 //        obj.Method20();
 //        obj.deleteA();
 //        obj.replaceA();
@@ -218,6 +217,8 @@ public class StringUtil {
 //        obj.printSubLine(new StringBuilder("We are living in an yellow submarine. We don't have anything"),10);
 //        obj.emptyOrNull();
 //        obj.split2();
+
+
 
     }
 }
