@@ -1,7 +1,4 @@
-package homeworks.homework5;
-
-import java.sql.Array;
-import java.util.Arrays;
+package homeworks.arrays;
 
 public class ArrayUtil {
 

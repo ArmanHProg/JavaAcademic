@@ -1,8 +1,8 @@
-package homeworks.homework6;
-
-import java.util.Arrays;
+package homeworks.strings;
 
 public class StringUtil_2 {
+
+
 
 
     String firstMethod(String str) {
@@ -118,6 +118,11 @@ public class StringUtil_2 {
 //        System.out.println(max);
 //    }
 
+    /**
+     *
+     * @param txt1
+     * @param txt2
+     */
     void subSequence(String txt1, String txt2){
 
         String[] str1 = txt1.split(" ");
@@ -168,7 +173,7 @@ public class StringUtil_2 {
     public static void main(String[] args) {
         StringUtil_2 stringUtil2 = new StringUtil_2();
 //        System.out.println(stringUtil2.firstMethod("velkoz"));
-//        stringUtil2.methodTwoX("loxxloxxx","xx");
+//        stringUtil2.methodTwoX("hoxxloxxx","xx");
 //        stringUtil2.palindrome("abcba");
 //        stringUtil2.lettersA("Ahs g aks d", "a");
 //        stringUtil2.oddOrEven(3,456);

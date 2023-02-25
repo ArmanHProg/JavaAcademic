@@ -1,4 +1,4 @@
-package homeworks.homework2;
+package homeworks.methods;
 
 
 public class Homework2 {

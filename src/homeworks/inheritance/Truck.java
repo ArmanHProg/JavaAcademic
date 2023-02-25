@@ -12,6 +12,7 @@ public class Truck extends Car {
         this.capacity = capacity;
     }
 
+
     public Truck(int capacity) {
         this.capacity = capacity;
         super.setEngineType("turbo");

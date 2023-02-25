@@ -1,4 +1,4 @@
-package homeworks.homework1;
+package homeworks.primitivetypes;
 
 public class Homework1 {
 

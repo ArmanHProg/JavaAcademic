@@ -1,4 +1,4 @@
-package homeworks.homework3;
+package homeworks.classes;
 
 public class Employee {
     private int id;
