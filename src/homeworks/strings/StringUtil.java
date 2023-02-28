@@ -24,6 +24,7 @@ public class StringUtil {
 
     /**
      * split
+     *
      * @param txt
      */
     void literals(String txt) {
@@ -92,6 +93,9 @@ public class StringUtil {
 
     }
 
+    /**
+     * deleting all a
+     */
     void deleteA() {
         String token = "a";
         StringBuilder sc = new StringBuilder("We are living in an yellow submarine. We don't  have anything");
@@ -114,13 +118,18 @@ public class StringUtil {
         }
         System.out.println(r);
 
-    }void replaceA() {
+    }
+
+    /**
+     * replacing all a
+     */
+    void replaceA() {
         String token = "a";
         StringBuilder sc = new StringBuilder("We are living in an yellow submarine. We don't  have anything");
         for (int i = 0; i < sc.length(); i++) {
             if (sc.indexOf(token) > 0) {
                 int f = sc.indexOf(token);
-                sc.replace(f,f+1,"*");
+                sc.replace(f, f + 1, "*");
             }
         }
         System.out.println(sc);
@@ -131,23 +140,25 @@ public class StringUtil {
         char token1 = 'a';
         for (int i = 0; i < str.length(); i++) {
 
-            if (str.charAt(i) != token1){
+            if (str.charAt(i) != token1) {
                 r += str.charAt(i);
-            }else r+="*";
-
+            } else r += "*";
 
 
         }
         System.out.println(r);
     }
 
-    void longestWord(){
+    /**
+     * print longest word
+     */
+    void longestWord() {
         String str = "We are living in an yellow submarine. We don't have anything";
         String word[] = str.split(" ");
         String longest = word[0];
         for (int i = 1; i < word.length; i++) {
 
-            if (longest.length() < word[i].length()){
+            if (longest.length() < word[i].length()) {
                 longest = word[i];
             }
 
@@ -156,7 +167,7 @@ public class StringUtil {
 
     }
 
-    void indexOfToken(){
+    void indexOfToken() {
         String str = "We are living in an yellow submarine. We don't have anything";
         char token = 'a';
 
@@ -164,40 +175,32 @@ public class StringUtil {
         System.out.println(f);
     }
 
-    void printSubLine(String line, int n){
+    void printSubLine(String line, int n) {
 
-        String str = line.substring(0,n) ;
+        String str = line.substring(0, n);
 
         System.out.println(str);
 
     }
-    void printSubLine(StringBuilder line, int n){
+
+    void printSubLine(StringBuilder line, int n) {
         System.out.println(line.substring(0, n));
     }
 
-    //todo
-//    void emptyOrNull(){
-//        String s = null;
-//        if (s.equals(""))
-//            System.out.println("Norm");
-//        else System.out.println("empty or null");
 
-//    }
     void split2() {
         String txt = "We, are, living, in an, yellow, submarine, We don't,  have anything";
 
         String[] words = txt.split(",");
         String max = words[0];
         for (int i = 1; i < words.length; i++) {
-            if (max.length() < words[i].length()){
+            if (max.length() < words[i].length()) {
                 max = words[i];
             }
         }
         System.out.println(max);
 
     }
-
-
 
 
     public static void main(String[] args) {
@@ -217,7 +220,6 @@ public class StringUtil {
 //        obj.printSubLine(new StringBuilder("We are living in an yellow submarine. We don't have anything"),10);
 //        obj.emptyOrNull();
 //        obj.split2();
-
 
 
     }
