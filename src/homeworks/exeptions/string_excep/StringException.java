@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class StringException {
 
-
+    /**
+     * operations with string
+     */
     public  static void operations(){
         Scanner sc = new Scanner(System.in);
         System.out.println("please input your word");
@@ -22,7 +24,6 @@ public class StringException {
                                 Character.toUpperCase(str.charAt(i)));
                     }
                 }
-
             }
 
         }catch (NullPointerException e){
